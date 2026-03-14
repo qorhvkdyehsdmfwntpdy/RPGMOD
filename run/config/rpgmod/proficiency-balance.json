@@ -1,0 +1,9 @@
+﻿{
+  "dataVersion": 1,
+  "categories": {
+    "class": { "baseExpPerLevel": 100, "growth": 1.15, "maxLevel": 200 },
+    "weapon": { "baseExpPerLevel": 90, "growth": 1.14, "maxLevel": 200 },
+    "gathering": { "baseExpPerLevel": 80, "growth": 1.12, "maxLevel": 200 },
+    "mining": { "baseExpPerLevel": 80, "growth": 1.12, "maxLevel": 200 }
+  }
+}

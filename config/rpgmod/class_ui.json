@@ -1,0 +1,31 @@
+﻿{
+  "panel": {
+    "width": 560,
+    "height": 360,
+    "titleLeft": 12,
+    "titleTop": 10,
+    "innerPadding": 8
+  },
+  "info": {
+    "left": 12,
+    "top": 34,
+    "lineStep": 14,
+    "headerGap": 16
+  },
+  "buttons": {
+    "backWidth": 72,
+    "backHeight": 18,
+    "backRightPadding": 16,
+    "backBottomPadding": 10,
+    "baseStartLeft": 14,
+    "baseY": 128,
+    "baseButtonWidth": 110,
+    "baseButtonHeight": 18,
+    "baseGap": 8,
+    "promoteStartLeft": 14,
+    "promoteStartY": 214,
+    "promoteWidth": 530,
+    "promoteHeight": 20,
+    "promoteGap": 6
+  }
+}

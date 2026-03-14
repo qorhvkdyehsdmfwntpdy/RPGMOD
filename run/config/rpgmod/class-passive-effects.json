@@ -1,0 +1,53 @@
+﻿{
+  "dataVersion": 1,
+  "passives": {
+    "novice_core": {
+      "hpMultiplier": 1.02,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 0.5,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 0.0
+    },
+    "novice_offense": {
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.03,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 0.0,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 5.0
+    },
+    "novice_utility": {
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 2.0,
+      "armorBonus": 0.0,
+      "critChanceBonusPercent": 1.0,
+      "critDamageBonusPercent": 0.0
+    },
+    "warrior_core_1": {
+      "hpMultiplier": 1.06,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 1.5,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 0.0
+    },
+    "warrior_offense_1": {
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.07,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 0.0,
+      "critChanceBonusPercent": 1.0,
+      "critDamageBonusPercent": 8.0
+    },
+    "warrior_utility_1": {
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 2.0,
+      "armorBonus": 0.5,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 0.0
+    }
+  }
+}

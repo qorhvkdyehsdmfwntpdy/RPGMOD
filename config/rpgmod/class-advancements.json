@@ -1,0 +1,394 @@
+﻿{
+    "dataVersion":  1,
+    "advancements":  [
+                         {
+                             "id":  "novice_base",
+                             "displayName":  "class.rpgmod.adv.novice_base",
+                             "baseClass":  "NONE",
+                             "tier":  "BASE",
+                             "parentId":  null,
+                             "requiredLevel":  0,
+                             "summary":  "Common starting class.",
+                             "statWeights":  {
+                                                 "str":  0.5,
+                                                 "agi":  0.5,
+                                                 "wis":  0.5,
+                                                 "luk":  0.5
+                                             },
+                             "weaponHints":  [
+                                                 "Any"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  0
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "warrior_first",
+                             "displayName":  "class.rpgmod.adv.warrior_first",
+                             "baseClass":  "WARRIOR",
+                             "tier":  "FIRST",
+                             "parentId":  "novice_base",
+                             "requiredLevel":  30,
+                             "summary":  "1st promotion: Warrior.",
+                             "statWeights":  {
+                                                 "str":  1.0,
+                                                 "agi":  0.5,
+                                                 "wis":  0.1,
+                                                 "luk":  0.4
+                                             },
+                             "weaponHints":  [
+                                                 "Greatsword",
+                                                 "Sword",
+                                                 "Axe"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  30
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "rogue_first",
+                             "displayName":  "class.rpgmod.adv.rogue_first",
+                             "baseClass":  "ROGUE",
+                             "tier":  "FIRST",
+                             "parentId":  "novice_base",
+                             "requiredLevel":  30,
+                             "summary":  "1st promotion: Rogue.",
+                             "statWeights":  {
+                                                 "str":  0.6,
+                                                 "agi":  1.0,
+                                                 "wis":  0.2,
+                                                 "luk":  0.9
+                                             },
+                             "weaponHints":  [
+                                                 "Dagger",
+                                                 "Dual Blade",
+                                                 "Throwing Knife"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  30
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "mage_first",
+                             "displayName":  "class.rpgmod.adv.mage_first",
+                             "baseClass":  "MAGE",
+                             "tier":  "FIRST",
+                             "parentId":  "novice_base",
+                             "requiredLevel":  30,
+                             "summary":  "1st promotion: Mage.",
+                             "statWeights":  {
+                                                 "str":  0.1,
+                                                 "agi":  0.3,
+                                                 "wis":  1.0,
+                                                 "luk":  0.6
+                                             },
+                             "weaponHints":  [
+                                                 "Staff",
+                                                 "Wand",
+                                                 "Spellbook"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  30
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "archer_first",
+                             "displayName":  "class.rpgmod.adv.archer_first",
+                             "baseClass":  "ARCHER",
+                             "tier":  "FIRST",
+                             "parentId":  "novice_base",
+                             "requiredLevel":  30,
+                             "summary":  "1st promotion: Archer.",
+                             "statWeights":  {
+                                                 "str":  0.4,
+                                                 "agi":  1.0,
+                                                 "wis":  0.2,
+                                                 "luk":  0.7
+                                             },
+                             "weaponHints":  [
+                                                 "Bow",
+                                                 "Crossbow",
+                                                 "Throwing"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  30
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "warrior_second_warrior",
+                             "displayName":  "class.rpgmod.adv.warrior_second_warrior",
+                             "baseClass":  "WARRIOR",
+                             "tier":  "SECOND",
+                             "parentId":  "warrior_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Warrior path.",
+                             "statWeights":  {
+                                                 "str":  1.2,
+                                                 "agi":  0.5,
+                                                 "wis":  0.1,
+                                                 "luk":  0.5
+                                             },
+                             "weaponHints":  [
+                                                 "Greatsword",
+                                                 "Axe",
+                                                 "War Banner"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "warrior_second_swordsman",
+                             "displayName":  "class.rpgmod.adv.warrior_second_swordsman",
+                             "baseClass":  "WARRIOR",
+                             "tier":  "SECOND",
+                             "parentId":  "warrior_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Swordsman path.",
+                             "statWeights":  {
+                                                 "str":  1.1,
+                                                 "agi":  0.8,
+                                                 "wis":  0.1,
+                                                 "luk":  0.6
+                                             },
+                             "weaponHints":  [
+                                                 "Sword",
+                                                 "Dual Sword",
+                                                 "Katana"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "rogue_second_assassin",
+                             "displayName":  "class.rpgmod.adv.rogue_second_assassin",
+                             "baseClass":  "ROGUE",
+                             "tier":  "SECOND",
+                             "parentId":  "rogue_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Assassin path.",
+                             "statWeights":  {
+                                                 "str":  0.7,
+                                                 "agi":  1.2,
+                                                 "wis":  0.2,
+                                                 "luk":  1.0
+                                             },
+                             "weaponHints":  [
+                                                 "Dagger",
+                                                 "Poison Blade",
+                                                 "Throwing Knife"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "mage_second_pyromancer",
+                             "displayName":  "class.rpgmod.adv.mage_second_pyromancer",
+                             "baseClass":  "MAGE",
+                             "tier":  "SECOND",
+                             "parentId":  "mage_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Fire caster path.",
+                             "statWeights":  {
+                                                 "str":  0.1,
+                                                 "agi":  0.3,
+                                                 "wis":  1.2,
+                                                 "luk":  0.7
+                                             },
+                             "weaponHints":  [
+                                                 "Staff",
+                                                 "Flame Orb",
+                                                 "Spellbook"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "mage_second_cryomancer",
+                             "displayName":  "class.rpgmod.adv.mage_second_cryomancer",
+                             "baseClass":  "MAGE",
+                             "tier":  "SECOND",
+                             "parentId":  "mage_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Ice caster path.",
+                             "statWeights":  {
+                                                 "str":  0.1,
+                                                 "agi":  0.3,
+                                                 "wis":  1.2,
+                                                 "luk":  0.7
+                                             },
+                             "weaponHints":  [
+                                                 "Staff",
+                                                 "Ice Orb",
+                                                 "Spellbook"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "mage_second_shadowcaster",
+                             "displayName":  "class.rpgmod.adv.mage_second_shadowcaster",
+                             "baseClass":  "MAGE",
+                             "tier":  "SECOND",
+                             "parentId":  "mage_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Dark caster path.",
+                             "statWeights":  {
+                                                 "str":  0.1,
+                                                 "agi":  0.3,
+                                                 "wis":  1.2,
+                                                 "luk":  0.8
+                                             },
+                             "weaponHints":  [
+                                                 "Staff",
+                                                 "Dark Tome",
+                                                 "Catalyst"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "mage_second_lightcaster",
+                             "displayName":  "class.rpgmod.adv.mage_second_lightcaster",
+                             "baseClass":  "MAGE",
+                             "tier":  "SECOND",
+                             "parentId":  "mage_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Light caster path.",
+                             "statWeights":  {
+                                                 "str":  0.1,
+                                                 "agi":  0.3,
+                                                 "wis":  1.2,
+                                                 "luk":  0.8
+                                             },
+                             "weaponHints":  [
+                                                 "Staff",
+                                                 "Light Tome",
+                                                 "Catalyst"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         },
+                         {
+                             "id":  "archer_second_sniper",
+                             "displayName":  "class.rpgmod.adv.archer_second_sniper",
+                             "baseClass":  "ARCHER",
+                             "tier":  "SECOND",
+                             "parentId":  "archer_first",
+                             "requiredLevel":  70,
+                             "summary":  "2nd promotion: Sniper path.",
+                             "statWeights":  {
+                                                 "str":  0.5,
+                                                 "agi":  1.2,
+                                                 "wis":  0.2,
+                                                 "luk":  0.9
+                                             },
+                             "weaponHints":  [
+                                                 "Bow",
+                                                 "Crossbow",
+                                                 "Longbow"
+                                             ],
+                             "requirements":  [
+                                                  {
+                                                      "type":  "LEVEL",
+                                                      "value":  "",
+                                                      "minValue":  70
+                                                  },
+                                                  {
+                                                      "type":  "PROFICIENCY",
+                                                      "value":  "class",
+                                                      "minValue":  10
+                                                  }
+                                              ]
+                         }
+                     ]
+}

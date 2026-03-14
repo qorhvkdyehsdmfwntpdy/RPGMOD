@@ -1,0 +1,42 @@
+﻿{
+    "panel":  {
+                  "width":  380,
+                  "height":  260,
+                  "titleLeft":  12,
+                  "titleTop":  10,
+                  "innerPadding":  8
+              },
+    "buttons":  {
+                    "left":  18,
+                    "top":  60,
+                    "width":  160,
+                    "height":  20,
+                    "colGap":  12,
+                    "rowGap":  8,
+                    "closeWidth":  64,
+                    "closeHeight":  16,
+                    "closeRightPadding":  16,
+                    "closeBottomPadding":  10
+                },
+    "admin":  {
+                  "targetInputLeft":  18,
+                  "targetInputTop":  174,
+                  "targetInputWidth":  200,
+                  "targetInputHeight":  18,
+                  "uuidInputLeft":  18,
+                  "uuidInputTop":  86,
+                  "uuidInputWidth":  220,
+                  "groupInputLeft":  244,
+                  "groupInputTop":  86,
+                  "groupInputWidth":  116,
+                  "nodeInputLeft":  18,
+                  "nodeInputTop":  110,
+                  "nodeInputWidth":  342,
+                  "tempSecondsInputLeft":  18,
+                  "tempSecondsInputTop":  134,
+                  "tempSecondsInputWidth":  120,
+                  "selectorInputLeft":  18,
+                  "selectorInputTop":  158,
+                  "selectorInputWidth":  180
+              }
+}

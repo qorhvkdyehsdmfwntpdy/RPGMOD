@@ -1,0 +1,50 @@
+﻿{
+  "dataVersion": 1,
+  "profiles": {
+    "none": {
+      "resourceType": "none",
+      "maxBase": 0.0,
+      "maxPerLevel": 0.0,
+      "regenPerSecond": 0.0,
+      "gainOnHit": 0.0,
+      "gainOnCrit": 0.0,
+      "gainOnKill": 0.0
+    },
+    "warrior": {
+      "resourceType": "rage",
+      "maxBase": 100.0,
+      "maxPerLevel": 0.2,
+      "regenPerSecond": 1.2,
+      "gainOnHit": 2.5,
+      "gainOnCrit": 4.0,
+      "gainOnKill": 6.0
+    },
+    "rogue": {
+      "resourceType": "focus",
+      "maxBase": 100.0,
+      "maxPerLevel": 0.15,
+      "regenPerSecond": 1.5,
+      "gainOnHit": 2.0,
+      "gainOnCrit": 3.0,
+      "gainOnKill": 5.0
+    },
+    "mage": {
+      "resourceType": "mana",
+      "maxBase": 120.0,
+      "maxPerLevel": 0.35,
+      "regenPerSecond": 2.0,
+      "gainOnHit": 0.0,
+      "gainOnCrit": 0.0,
+      "gainOnKill": 2.0
+    },
+    "archer": {
+      "resourceType": "concentration",
+      "maxBase": 100.0,
+      "maxPerLevel": 0.2,
+      "regenPerSecond": 1.4,
+      "gainOnHit": 1.5,
+      "gainOnCrit": 2.5,
+      "gainOnKill": 4.0
+    }
+  }
+}

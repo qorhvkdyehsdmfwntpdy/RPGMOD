@@ -1,0 +1,9 @@
+﻿{
+    "dataVersion":  1,
+    "moduleEnabled":  {
+                          "permission-core":  true,
+                          "progression-core":  true,
+                          "itemization-core":  true,
+                          "content-core":  true
+                      }
+}

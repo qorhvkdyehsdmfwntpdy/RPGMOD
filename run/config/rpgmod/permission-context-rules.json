@@ -1,0 +1,8 @@
+﻿{
+  "dataVersion": 1,
+  "regionRules": [
+    { "id": "spawn", "minDistance": 0, "maxDistance": 256, "dimensionContains": "", "module": "", "time": "" },
+    { "id": "near", "minDistance": 257, "maxDistance": 1024, "dimensionContains": "", "module": "", "time": "" },
+    { "id": "wild", "minDistance": 1025, "maxDistance": 10000000, "dimensionContains": "", "module": "", "time": "" }
+  ]
+}

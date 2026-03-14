@@ -1,0 +1,393 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2026-02-26 13:30:04
+Description: Initializing game
+
+java.lang.RuntimeException: null
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:336) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.common.ForgeStatesProvider.lambda$gather$0(ForgeStatesProvider.java:32) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:272) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:261) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:216) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:68) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:499) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	Suppressed: net.minecraftforge.fml.ModLoadingException: rpgmod (rpgmod) encountered an error during the common_setup event phase
+§7java.lang.NullPointerException: Block id not set
+		at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.11-61.1.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:185) ~[javafmllanguage-1.21.11-61.1.0.jar:61.1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:423) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:410) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:348) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.common.ForgeStatesProvider.lambda$gather$0(ForgeStatesProvider.java:32) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:272) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:261) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:216) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:68) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:499) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+		at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+		at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+		at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+		at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	Caused by: java.lang.NullPointerException: Block id not set
+		at java.base/java.util.Objects.requireNonNull(Objects.java:259) ~[?:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour$Properties.effectiveDrops(BlockBehaviour.java:1160) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour.<init>(BlockBehaviour.java:107) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.Block.<init>(Block.java:238) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/rpgmod@1.0.0/qorhvkdy.qorhvkdy.rpgmod.Rpgmod.lambda$static$0(Rpgmod.java:45) ~[main/:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.DeferredRegister$EventDispatcher.lambda$handleEvent$0(DeferredRegister.java:383) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:61) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:383) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.InvokerFactory.lambda$createInvokerFromUnwrapped$8(InvokerFactory.java:221) ~[eventbus-7.0.1.jar:7.0.1]
+		at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.EventBusImpl.post(EventBusImpl.java:62) ~[eventbus-7.0.1.jar:7.0.1]
+		at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.11-61.1.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:181) ~[javafmllanguage-1.21.11-61.1.0.jar:61.1.0]
+		... 27 more
+	Suppressed: net.minecraftforge.fml.ModLoadingException: rpgmod (rpgmod) encountered an error during the common_setup event phase
+§7java.lang.NullPointerException: Registry Object not present: rpgmod:example_block
+		at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.11-61.1.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:185) ~[javafmllanguage-1.21.11-61.1.0.jar:61.1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:423) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:410) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:348) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.common.ForgeStatesProvider.lambda$gather$0(ForgeStatesProvider.java:32) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:272) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:261) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:216) ~[fmlcore-1.21.11-61.1.0.jar:1.0]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:68) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:499) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+		at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+		at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+		at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+		at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+		at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	Caused by: java.lang.NullPointerException: Registry Object not present: rpgmod:example_block
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:202) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/rpgmod@1.0.0/qorhvkdy.qorhvkdy.rpgmod.Rpgmod.lambda$static$1(Rpgmod.java:47) ~[main/:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.DeferredRegister$EventDispatcher.lambda$handleEvent$0(DeferredRegister.java:383) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:61) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:383) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+		at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.InvokerFactory.lambda$createInvokerFromUnwrapped$8(InvokerFactory.java:222) ~[eventbus-7.0.1.jar:7.0.1]
+		at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.internal.EventBusImpl.post(EventBusImpl.java:62) ~[eventbus-7.0.1.jar:7.0.1]
+		at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.11-61.1.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:181) ~[javafmllanguage-1.21.11-61.1.0.jar:61.1.0]
+		... 27 more
+Transformer Audit:
+  net.minecraft.client.Minecraft
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+  net.minecraft.client.main.Main
+    REASON: classloading
+  net.minecraft.world.level.block.Block
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+  net.minecraft.world.level.block.state.BlockBehaviour
+    REASON: classloading
+  net.minecraft.world.level.block.state.BlockBehaviour$Properties
+    REASON: classloading
+  net.minecraftforge.client.loading.ClientModLoader
+    REASON: classloading
+  net.minecraftforge.common.ForgeStatesProvider
+    REASON: classloading
+  net.minecraftforge.registries.DeferredRegister$EventDispatcher
+    REASON: classloading
+  net.minecraftforge.registries.GameData
+    REASON: classloading
+  net.minecraftforge.registries.RegisterEvent
+    REASON: classloading
+  net.minecraftforge.registries.RegistryObject
+    REASON: classloading
+  qorhvkdy.qorhvkdy.rpgmod.Rpgmod
+    REASON: classloading
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:336) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.common.ForgeStatesProvider.lambda$gather$0(ForgeStatesProvider.java:32) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.handleInlineTransition(ModLoader.java:272) ~[fmlcore-1.21.11-61.1.0.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:261) ~[fmlcore-1.21.11-61.1.0.jar!/:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.11-61.1.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:216) ~[fmlcore-1.21.11-61.1.0.jar!/:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%231!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:68) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%231!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%231!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.<init>(Minecraft.java:499) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+Transformer Audit:
+  net.minecraft.client.Minecraft
+    REASON: classloading
+    PLUGIN: accesstransformer:BEFORE
+  net.minecraftforge.client.loading.ClientModLoader
+    REASON: classloading
+  net.minecraftforge.common.ForgeStatesProvider
+    REASON: classloading
+  net.minecraftforge.registries.GameData
+    REASON: classloading
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:고급 Windows 32 기반 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.19041.5856 (WinBuild.160101.0800):Microsoft Corporation
+		ColorAdapterClient.dll:Microsoft Color Adapter Client:10.0.19041.5129 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.19041.5915:Microsoft Corporation
+		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.19041.3636:Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.19041.5848 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS 클라이언트 API DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		DUI70.dll:Windows DirectUI 엔진:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.19041.6157 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.19041.6157 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP 도우미 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT 기반 API 클라이언트 DLL:10.0.19041.5915 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT 기반 API 클라이언트 DLL:10.0.19041.5915 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.26010.5 (1e74b9adf5ed0dd9a81fac912007d1b65cd9b869):Microsoft Corporation
+		NLAapi.dll:Network Location Awareness 2:10.0.19041.6456 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEACC.dll:Active Accessibility Core Component:7.2.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:전원 프로필 도우미 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		PROPSYS.dll:Microsoft 속성 시스템:7.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows 성능 데이터 도우미 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:원격 프로시저 호출 런타임:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows 설치 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows 셸 공용 Dll:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll
+		USER32.dll:다중 사용자 Windows 사용자 API 클라이언트 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		WINSTA.dll:Winstation Library:10.0.19041.6456 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.19041.6456 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows 소켓 2.0 32비트 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		WTSAPI32.dll:Windows Remote Desktop Session Host Server SDK APIs:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Wldp.dll:Windows 잠금 정책:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows 암호화 기본 라이브러리:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.19041.5007 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.19041.3996 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Windows용 Microsoft COM:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		drvstore.dll:Driver Store API:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft 바탕 화면 창 관리자 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		fwpuclnt.dll:FWP/IPsec 사용자 모드 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.19041.6157 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		icm32.dll:Microsoft Color Management Module (CMM):10.0.19041.5129 (WinBuild.160101.0800):Microsoft Corporation
+		imagehlp.dll:Windows NT Image Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		imetip.dll:Microsoft IME:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		imjkapi.dll:Microsoft IME:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		imkrapi.dll:Microsoft IME:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		imkrtip.dll:Microsoft IME:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		java.exe:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		jli.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		jlinenative-3.25.1-99462e3505d3835a-jlinenative.dll
+		jna8245401529579790484.dll:JNA native library:7.0.2:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		jvm.dll:OpenJDK 64-Bit server VM:21.0.10.0:Eclipse Adoptium
+		kernel.appcore.dll:AppModel API Host:10.0.19041.3758 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		management_ext.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		msasn1.dll:ASN.1 Runtime APIs:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		mscms.dll:Microsoft 색 일치 시스템 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp110_win.dll:Microsoft® STL110 C++ Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows 소켓 2.0 서비스 공급자:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:전자 메일 명명 심(Shim) 공급자:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt 라우터:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		nio.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		ntdll.dll:NT 계층 DLL:10.0.19041.4842 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA 공급자:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		nvgpucomp64.dll:NVIDIA GPU Compiler Driver, Version 581.57 :32.0.15.8157:NVIDIA Corporation
+		nvoglv64.dll:NVIDIA Compatible OpenGL ICD:32.0.15.8157:NVIDIA Corporation
+		nvspcap64.dll:NVIDIA Game Proxy 8FileVersion  1:11.0.5.420  8Produc:NVIDIA Corporation  L$FileDescriptio
+		ole32.dll:Windows용 Microsoft OLE:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP 네임스페이스 공급자:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		policymanager.dll:Policy Manager DLL:10.0.19041.5794 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.19041.6033 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.19041.6328 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:셸 표준 이하 유틸리티 라이브러리:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.19041.6456 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme 라이브러리:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+		win32u.dll:Win32u:10.0.19041.6456 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT 저장소 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows 기본 형식 DLL:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.19041.5848 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft 공용 컨트롤러 API:10.0.19041.4522 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:21.0.10.0:Eclipse Adoptium
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:208) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.1.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Transformer Audit:
+  net.minecraft.client.main.Main
+    REASON: classloading
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 87312928 bytes (83 MiB) / 452984832 bytes (432 MiB) up to 8573157376 bytes (8176 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce GTX 1660
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 6144.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.8157
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 34750.46
+	Virtual memory used (MiB): 23076.80
+	Swap memory total (MiB): 2048.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 149703.19, total: 953163.00
+	Space in storage for workdir (MiB): available: 149703.19, total: 953163.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Debug Flags: 0 total; 
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: NVIDIA GeForce GTX 1660/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.57, NVIDIA Corporation
+	Window size: <not initialized>
+	GFLW Platform: win32
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: ko_KR
+	System encoding: MS949
+	File encoding: UTF-8
+	CPU: 8x Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz
+	ModLauncher: 10.2.4
+	ModLauncher launch target: forge_userdev_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ forge TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		lowcodefml@61
+		minecraft@1.0
+		javafml@61.1.0
+	Mod List: 
+		union:/C:/Users/dp/.gradle/caches/forge_gradle/min|Minecraft                     |minecraft                     |1.21.11             |COMMON_SET|Manifest: NOSIGNATURE
+		union:/C:/Users/dp/.gradle/caches/forge_gradle/min|Forge                         |forge                         |61.1.0              |COMMON_SET|Manifest: NOSIGNATURE
+		C:\dev\minecraft\untitled\build\sourcesSets\main  |rpgmod                        |rpgmod                        |1.0.0               |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 552266c4-e134-4a9f-b385-39982bb1b804
+	FML: 61.1
+	Forge: net.minecraftforge:61.1.0

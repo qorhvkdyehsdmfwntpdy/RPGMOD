@@ -1,0 +1,10 @@
+﻿{
+  "dataVersion": 1,
+  "levelRequirementMultiplier": 1.0,
+  "proficiencyExpMultiplier": {
+    "class": 1.0,
+    "weapon": 1.0,
+    "gathering": 1.0,
+    "mining": 1.0
+  }
+}

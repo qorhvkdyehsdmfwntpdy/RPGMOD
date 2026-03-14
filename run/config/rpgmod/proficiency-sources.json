@@ -1,0 +1,9 @@
+﻿{
+  "dataVersion": 1,
+  "sources": {
+    "mob_kill.class": { "proficiencyType": "class", "amount": 10, "multiplier": 1.0 },
+    "mob_kill.weapon": { "proficiencyType": "weapon", "amount": 4, "multiplier": 1.0 },
+    "block_break.gathering": { "proficiencyType": "gathering", "amount": 6, "multiplier": 1.0 },
+    "block_break.mining": { "proficiencyType": "mining", "amount": 6, "multiplier": 1.0 }
+  }
+}

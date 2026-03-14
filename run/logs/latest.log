@@ -1,0 +1,150 @@
+[133월2026 16:11:51.894] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_client, --version, MOD_DEV, --assetIndex, 29, --assetsDir, C:\Users\dp\.gradle\caches\forge_gradle\assets, --gameDir, ., --username, Dev]
+[133월2026 16:11:51.897] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[133월2026 16:11:51.898] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[133월2026 16:11:52.017] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[133월2026 16:11:52.186] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[133월2026 16:11:52.339] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[133월2026 16:11:52.478] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/dp/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=CLIENT
+[133월2026 16:11:52.578] [EarlyDisplay/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1660/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.57, NVIDIA Corporation
+[133월2026 16:11:53.502] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[133월2026 16:11:53.740] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_client' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\dp\.gradle\caches\forge_gradle\assets, --assetIndex, 29, --username, Dev]
+[133월2026 16:11:55.394] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 287 Datafixer optimizations took 613 milliseconds
+[133월2026 16:11:55.427] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[133월2026 16:11:55.427] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[133월2026 16:11:55.427] [main/INFO] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[133월2026 16:11:56.363] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[133월2026 16:12:01.579] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/dp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.1.0_mapped_official_1.21.11/forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[133월2026 16:12:01.581] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/dp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.11-61.1.0_mapped_official_1.21.11/forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/data/.mcassetsroot' uses unexpected schema
+[133월2026 16:12:01.611] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[133월2026 16:12:01.633] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[133월2026 16:12:01.773] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[133월2026 16:12:02.032] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[133월2026 16:12:02.126] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 61.1.0, for MC 1.21.11 with MCP 20251223.124241
+[133월2026 16:12:02.127] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v61.1.0 Initialized
+[133월2026 16:12:02.140] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[133월2026 16:12:03.147] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[133월2026 16:12:03.566] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-17.0.01.hex, loading
+[133월2026 16:12:03.587] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-17.0.01.hex, loading
+[133월2026 16:12:03.830] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-17.0.01.hex, loading
+[133월2026 16:12:03.842] [Download-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[133월2026 16:12:03.843] [Download-1/ERROR] [com.mojang.realmsclient.client.RealmsClient/]: Failed to fetch Realms feature flags
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at TRANSFORMER/minecraft@1.21.11/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:526) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:186) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[133월2026 16:12:03.995] [Worker-Main-5/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: HELLO FROM COMMON SETUP
+[133월2026 16:12:04.004] [Worker-Main-5/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: DIRT BLOCK >> minecraft:dirt
+[133월2026 16:12:04.004] [Worker-Main-5/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: DIRT BLOCK >> minecraft:dirt
+[133월2026 16:12:04.009] [Worker-Main-5/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: The magic number is... 42
+[133월2026 16:12:04.009] [Worker-Main-5/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: ITEM >> minecraft:iron_ingot
+[133월2026 16:12:04.068] [Worker-Main-1/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: HELLO FROM CLIENT SETUP
+[133월2026 16:12:04.068] [Worker-Main-1/INFO] [qorhvkdy.qorhvkdy.rpgmod.Rpgmod/]: MINECRAFT NAME >> Dev
+[133월2026 16:12:04.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[133월2026 16:12:04.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 61.1.0 Target: null
+[133월2026 16:12:04.902] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{rpgmod:example_block}'
+[133월2026 16:12:05.904] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(SIMGOT DEW4X)
+[133월2026 16:12:05.905] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[133월2026 16:12:05.905] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[133월2026 16:12:05.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[133월2026 16:12:05.920] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[133월2026 16:12:05.936] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[133월2026 16:12:05.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[133월2026 16:12:05.946] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[133월2026 16:12:05.991] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[133월2026 16:12:05.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[133월2026 16:12:05.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[133월2026 16:12:05.996] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[133월2026 16:12:05.997] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[133월2026 16:12:06.010] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[133월2026 16:12:06.023] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[133월2026 16:12:06.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[133월2026 16:12:06.031] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[133월2026 16:12:06.533] [IO-Worker-1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[133월2026 16:12:06.533] [IO-Worker-1/ERROR] [com.mojang.realmsclient.RealmsAvailability/]: Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at TRANSFORMER/minecraft@1.21.11/com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:526) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:307) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:48) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[133월2026 16:12:15.567] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
+[133월2026 16:12:15.580] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
+[133월2026 16:12:15.767] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.11
+[133월2026 16:12:15.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[133월2026 16:12:16.475] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[133월2026 16:12:16.476] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 스폰 영역 준비 중: 16%
+[133월2026 16:12:16.489] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[133월2026 16:12:17.054] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 49 chunks for player spawn...
+[133월2026 16:12:17.054] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 스폰 영역 준비 중: 16%
+[133월2026 16:12:17.493] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 스폰 영역 준비 중: 16%
+[133월2026 16:12:17.992] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 스폰 영역 준비 중: 16%
+[133월2026 16:12:18.478] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: 스폰 영역 준비 중: 16%
+[133월2026 16:12:18.641] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 2166 ms
+[133월2026 16:12:18.862] [Render thread/INFO] [net.minecraftforge.common.ForgeHooks/]: Connected to a modded server.
+[133월2026 16:12:19.020] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:aaf2a2b1] logged in with entity id 19 at (44.385427259046686, 143.0, 78.21553415631789)
+[133월2026 16:12:19.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev이(가) 게임에 참여했습니다
+[133월2026 16:12:19.212] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[133월2026 16:12:19.257] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
+[133월2026 16:12:19.259] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 83 advancements
+[133월2026 16:12:19.260] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
+[133월2026 16:12:19.311] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[133월2026 16:12:19.669] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 8.
+[133월2026 16:12:20.082] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[133월2026 16:12:20.133] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[133월2026 16:12:20.497] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[133월2026 16:12:20.664] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[133월2026 16:12:20.914] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[133월2026 16:12:21.071] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[133월2026 16:12:21.704] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[133월2026 16:12:43.735] [Render thread/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[133월2026 16:12:43.741] [Render thread/ERROR] [net.minecraft.client.Minecraft/FATAL]: Reported exception thrown!
+net.minecraft.ReportedException: Rendering screen
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:548) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.runTick(Minecraft.java:1313) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.Minecraft.run(Minecraft.java:893) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.main.Main.main(Main.java:223) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.11-61.1.0.jar:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.11-61.1.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.11-61.1.0.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) ~[modlauncher-10.2.4.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) ~[modlauncher-10.2.4.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) ~[modlauncher-10.2.4.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) ~[modlauncher-10.2.4.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) ~[modlauncher-10.2.4.jar:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+Caused by: java.lang.IllegalStateException: Can only blur once per frame
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.render.state.GuiRenderState.blurBeforeThisStratum(GuiRenderState.java:44) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.GuiGraphics.blurBeforeThisStratum(GuiGraphics.java:140) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.screens.Screen.renderBlurredBackground(Screen.java:400) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.screens.Screen.renderBackground(Screen.java:388) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/rpgmod@1.0.0/qorhvkdy.qorhvkdy.rpgmod.client.gui.QuestBoardScreen.render(QuestBoardScreen.java:55) ~[main/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.gui.screens.Screen.renderWithTooltipAndSubtitles(Screen.java:111) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.ForgeHooksClient.drawScreenInternal(ForgeHooksClient.java:335) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%231!/:?]
+	at TRANSFORMER/net.minecraftforge.forge@61.1.0/net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:329) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%231!/:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:542) ~[forge-1.21.11-61.1.0_mapped_official_1.21.11.jar%230!/:?]
+	... 18 more
+[133월2026 16:12:44.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[133월2026 16:12:44.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[133월2026 16:12:44.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[133월2026 16:12:44.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:overworld
+[133월2026 16:12:44.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_end
+[133월2026 16:12:44.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[새로운 세계]'/minecraft:the_nether
+[133월2026 16:12:44.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (새로운 세계): All chunks are saved
+[133월2026 16:12:44.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[133월2026 16:12:44.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[133월2026 16:12:44.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[133월2026 16:12:44.808] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID a29cb410-1127-4fa9-a8f0-78e317c1e958
+[133월2026 16:12:44.816] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 035413d8-5c7c-4883-8251-98ae59b0e9ee

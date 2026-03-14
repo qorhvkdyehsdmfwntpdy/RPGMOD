@@ -1,0 +1,77 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:llama": 9,
+      "minecraft:pig": 5,
+      "minecraft:sheep": 1,
+      "minecraft:wolf": 5,
+      "minecraft:armadillo": 1
+    },
+    "minecraft:used": {
+      "minecraft:snow": 96,
+      "minecraft:oak_trapdoor": 17,
+      "minecraft:grass_block": 166,
+      "minecraft:honey_block": 18,
+      "minecraft:slime_block": 209,
+      "rpgmod:example_item": 4,
+      "minecraft:chorus_fruit": 1,
+      "minecraft:pig_spawn_egg": 3,
+      "minecraft:short_grass": 1,
+      "minecraft:diamond_sword": 19,
+      "minecraft:dirt": 46
+    },
+    "minecraft:dropped": {
+      "minecraft:armadillo_scute": 1,
+      "minecraft:short_grass": 1,
+      "minecraft:wheat_seeds": 15,
+      "minecraft:porkchop": 4,
+      "minecraft:grass_block": 1,
+      "minecraft:mutton": 1,
+      "rpgmod:example_item": 1,
+      "minecraft:diamond_sword": 1,
+      "minecraft:brown_wool": 1,
+      "minecraft:leather": 10
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 17278,
+      "minecraft:walk_one_cm": 153706,
+      "minecraft:leave_game": 38,
+      "minecraft:mob_kills": 21,
+      "minecraft:damage_taken": 100,
+      "minecraft:play_time": 188287,
+      "minecraft:damage_dealt": 3113,
+      "minecraft:jump": 6933,
+      "minecraft:time_since_death": 17257,
+      "minecraft:drop": 27,
+      "minecraft:sprint_one_cm": 639649,
+      "minecraft:fall_one_cm": 40650,
+      "minecraft:total_world_time": 976083,
+      "minecraft:fly_one_cm": 1565291,
+      "minecraft:crouch_one_cm": 31062,
+      "minecraft:sneak_time": 12305,
+      "minecraft:deaths": 3
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 148,
+      "minecraft:tall_grass": 8,
+      "minecraft:oak_leaves": 1,
+      "minecraft:dirt": 18,
+      "minecraft:grass_block": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 20,
+      "minecraft:diamond_sword": 1,
+      "minecraft:dirt": 20,
+      "minecraft:armadillo_scute": 1,
+      "minecraft:brown_wool": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:wheat_seeds": 15,
+      "minecraft:mutton": 1,
+      "minecraft:leather": 10,
+      "minecraft:slime_block": 1,
+      "rpgmod:example_item": 1,
+      "minecraft:pig_spawn_egg": 1
+    }
+  },
+  "DataVersion": 4671
+}

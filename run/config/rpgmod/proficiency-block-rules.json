@@ -1,0 +1,18 @@
+﻿{
+  "dataVersion": 1,
+  "gatheringDefaultMultiplier": 1.0,
+  "miningDefaultMultiplier": 1.0,
+  "gathering": {
+    "minecraft:wheat": 1.2,
+    "minecraft:carrots": 1.2,
+    "minecraft:potatoes": 1.2,
+    "minecraft:beetroots": 1.2
+  },
+  "mining": {
+    "minecraft:coal_ore": 1.1,
+    "minecraft:iron_ore": 1.2,
+    "minecraft:gold_ore": 1.25,
+    "minecraft:diamond_ore": 1.5,
+    "minecraft:deepslate_diamond_ore": 1.7
+  }
+}

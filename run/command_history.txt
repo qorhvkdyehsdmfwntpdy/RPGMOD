@@ -1,0 +1,50 @@
+/xp query Dev levels
+/xp set Dev 0
+/kill
+/stats show
+/stats reset
+/time set day
+/tick
+/tick rate
+/reload
+/stats reset
+/stats admin rollback
+/stats admin rollback Dev
+/reload
+/tps
+/reload
+/time set day
+/time set 2000
+/reload
+/stats admin points Dev 1
+/stats admin rollback Dev
+/stats admin snapshot
+/stats admin snapshot Dev 1
+/stats admin resetxp
+/stats admin resetxp Dev
+/stats admin resetpoints Dev
+/stats reset
+/stats admin resetpoints Dev
+/xp add Dev 1
+/class options
+/time set 2000
+/class admin reload
+/time set 2000
+/xp add Dev 100
+/stats admin resetpoints Dev
+/stats admin resetxp 0
+/stats admin resetxp Dev
+/kill\
+/kill
+/time set 2000
+/class reset
+/time set day
+/xp add dev 1000
+/xp add dev 10000
+/class reset keep_all
+/stats admin resetpoints Dev
+/stats admin resetxp Dev
+/stats admin recalc Dev
+/stats admin resetpoints Dev
+/kill
+/time set 1000

@@ -1,0 +1,22 @@
+﻿{
+  "dataVersion": 1,
+  "formulaProfile": "default-primary-derivation",
+  "primaryCaps": {
+    "str": {
+      "softCap": 100,
+      "hardCap": 350
+    },
+    "agi": {
+      "softCap": 95,
+      "hardCap": 340
+    },
+    "wis": {
+      "softCap": 105,
+      "hardCap": 360
+    },
+    "luk": {
+      "softCap": 85,
+      "hardCap": 300
+    }
+  }
+}

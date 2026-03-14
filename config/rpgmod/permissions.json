@@ -1,0 +1,68 @@
+{
+    "dataVersion":  1,
+    "groups":  {
+                   "player":  {
+                                  "parent":  "",
+                                  "nodes":  [
+                                                "rpg.ui.perm.open",
+                                                "rpg.party.manage",
+                                                "rpg.ui.skill_tree.open"
+                                            ],
+                                  "weight":  0,
+                                  "prefix":  "",
+                                  "meta":  {
+
+                                           },
+                                  "contextNodes":  {
+
+                                                   }
+                              },
+                   "moderator":  {
+                                     "parent":  "player",
+                                     "nodes":  [
+                                                   "rpg.stats.admin",
+                                                   "rpg.proficiency.admin",
+                                                   "rpg.debug.drop.simulate",
+                                                   "rpg.title.manage",
+                                                   "rpg.balance.admin"
+                                               ],
+                                     "weight":  0,
+                                     "prefix":  "",
+                                     "meta":  {
+
+                                              },
+                                     "contextNodes":  {
+
+                                                      }
+                                 },
+                   "admin":  {
+                                 "parent":  "moderator",
+                                 "nodes":  [
+                                               "rpg.*"
+                                           ],
+                                 "weight":  0,
+                                 "prefix":  "",
+                                 "meta":  {
+
+                                          },
+                                 "contextNodes":  {
+
+                                                  }
+                             }
+               },
+    "users":  {
+
+              },
+    "userNodes":  {
+
+                  },
+    "userTempNodes":  {
+
+                      },
+    "userContextNodes":  {
+
+                         },
+    "userMeta":  {
+
+                 }
+}

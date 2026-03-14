@@ -1,0 +1,49 @@
+﻿{
+  "dataVersion": 1,
+  "skills": [
+    {
+      "id": "str_guardian",
+      "stat": "str",
+      "requiredStat": 30,
+      "hpMultiplier": 1.05,
+      "attackDamageMultiplier": 1.02,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 1.5,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 5.0
+    },
+    {
+      "id": "agi_swiftness",
+      "stat": "agi",
+      "requiredStat": 30,
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.03,
+      "moveSpeedBonusPercent": 4.0,
+      "armorBonus": 0.0,
+      "critChanceBonusPercent": 1.0,
+      "critDamageBonusPercent": 0.0
+    },
+    {
+      "id": "wis_focus",
+      "stat": "wis",
+      "requiredStat": 30,
+      "hpMultiplier": 1.02,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 0.0,
+      "armorBonus": 0.5,
+      "critChanceBonusPercent": 0.0,
+      "critDamageBonusPercent": 8.0
+    },
+    {
+      "id": "luk_fortune",
+      "stat": "luk",
+      "requiredStat": 30,
+      "hpMultiplier": 1.0,
+      "attackDamageMultiplier": 1.0,
+      "moveSpeedBonusPercent": 2.0,
+      "armorBonus": 0.0,
+      "critChanceBonusPercent": 3.0,
+      "critDamageBonusPercent": 5.0
+    }
+  ]
+}

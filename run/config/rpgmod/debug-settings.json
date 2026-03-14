@@ -1,0 +1,9 @@
+﻿{
+  "dataVersion": 1,
+  "progressionLogLevel": "info",
+  "dropVerboseLog": false,
+  "jsonValidationLog": true,
+  "combatSamplerEnabled": true,
+  "combatSamplerWindowSeconds": 20,
+  "combatSamplerMinHits": 8
+}

@@ -1,0 +1,24 @@
+﻿{
+  "dataVersion": 1,
+  "weapons": [
+    {
+      "itemId": "minecraft:iron_sword",
+      "displayName": "weapon.rpgmod.sample.iron_sword",
+      "category": "class_weapon",
+      "grade": "A",
+      "rarity": "rare",
+      "requiredClass": "warrior",
+      "requiredAdvancement": "",
+      "options": [
+        { "mode": "FLAT", "stat": "attack_power", "value": 5, "label": "+5 Attack Power" },
+        { "mode": "PERCENT", "stat": "crit_chance", "value": 2, "label": "+2% Crit Chance" }
+      ],
+      "obtainMethods": ["Dungeon Drop", "Blacksmith Craft"],
+      "dropEnabled": true,
+      "baseDropChance": 0.35,
+      "dropWeight": 1.0,
+      "minMobMaxHealth": 12.0
+    }
+  ]
+}
+

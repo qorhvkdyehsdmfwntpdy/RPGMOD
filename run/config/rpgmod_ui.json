@@ -1,0 +1,25 @@
+﻿{
+  "hud": {
+    "panelWidth": 220,
+    "panelHeight": 32,
+    "alignLeft": true,
+    "leftMargin": 1,
+    "alignToHotbar": false,
+    "hotbarGap": 0,
+    "bottomMargin": 0,
+    "bottomOffset": 8,
+    "textLeftPadding": 8,
+    "fontScale": 1.1,
+    "expColor": -11141291
+  },
+  "gui": {
+    "panelWidth": 360,
+    "panelHeight": 252,
+    "primaryTop": 44,
+    "primaryRowStep": 21,
+    "buttonRightOffset": 64,
+    "derivedTop": 146,
+    "derivedRowStep": 16,
+    "derivedColumnGap": 28
+  }
+}

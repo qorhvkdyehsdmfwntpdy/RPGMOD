@@ -1,0 +1,22 @@
+﻿{
+  "dataVersion": 1,
+  "enabled": true,
+  "playerKillOnly": true,
+  "maxDropsPerKill": 1,
+  "globalDropChance": 0.25,
+  "optionRollMin": 0.85,
+  "optionRollMax": 1.15,
+  "rarityWeight": {
+    "common": 1.0,
+    "rare": 1.6,
+    "epic": 2.2,
+    "legendary": 3.0
+  },
+  "gradeWeight": {
+    "d": 1.0,
+    "c": 1.1,
+    "b": 1.25,
+    "a": 1.5,
+    "s": 1.8
+  }
+}

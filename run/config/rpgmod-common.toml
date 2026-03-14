@@ -1,0 +1,33 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#Default STR for new player stats
+#Range: 0 ~ 9999
+defaultStr = 0
+#Default AGI for new player stats
+#Range: 0 ~ 9999
+defaultAgi = 0
+#Default WIS for new player stats
+#Range: 0 ~ 9999
+defaultWis = 0
+#Default LUK for new player stats
+#Range: 0 ~ 9999
+defaultLuk = 0
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#Stat points granted per level up
+#Range: 0 ~ 9999
+levelUpStatPoints = 4
+#Attack power contribution to final damage
+#Range: 0.0 ~ 100.0
+damageAttackPowerScale = 0.15
+#Defense effectiveness in damage mitigation
+#Range: 0.0 ~ 100.0
+damageDefenseScale = 0.06
+#Minimum post-mitigation multiplier
+#Range: 0.0 ~ 1.0
+damageMinMultiplier = 0.1

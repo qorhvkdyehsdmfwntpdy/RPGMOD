@@ -1,0 +1,29 @@
+﻿{
+  "panel": {
+    "width": 360,
+    "height": 260,
+    "titleLeft": 12,
+    "titleTop": 10,
+    "innerPadding": 8,
+    "sectionTop": 58,
+    "sectionBottomPadding": 36
+  },
+  "summary": {
+    "left": 12,
+    "top": 32,
+    "lineStep": 12,
+    "colGap": 170
+  },
+  "buttons": {
+    "startLeft": 18,
+    "startTop": 82,
+    "width": 140,
+    "height": 20,
+    "rowGap": 6,
+    "colGap": 12,
+    "closeWidth": 64,
+    "closeHeight": 16,
+    "closeRightPadding": 18,
+    "closeBottomPadding": 10
+  }
+}

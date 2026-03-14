@@ -1,0 +1,53 @@
+﻿{
+  "dataVersion": 1,
+  "sets": [
+    {
+      "id": "warrior_blade_synergy",
+      "category": "weapon",
+      "requiredClass": "warrior",
+      "requiredAdvancement": "",
+      "requiredPieces": 1,
+      "requiredPassiveId": "",
+      "attackMultiplier": 1.08,
+      "armorBonus": 1.5,
+      "critChanceBonus": 0.0,
+      "critDamageBonus": 5.0
+    },
+    {
+      "id": "rogue_blade_synergy",
+      "category": "weapon",
+      "requiredClass": "rogue",
+      "requiredAdvancement": "",
+      "requiredPieces": 1,
+      "requiredPassiveId": "",
+      "attackMultiplier": 1.06,
+      "armorBonus": 0.5,
+      "critChanceBonus": 2.0,
+      "critDamageBonus": 8.0
+    },
+    {
+      "id": "mage_arcane_synergy",
+      "category": "weapon",
+      "requiredClass": "mage",
+      "requiredAdvancement": "",
+      "requiredPieces": 1,
+      "requiredPassiveId": "",
+      "attackMultiplier": 1.05,
+      "armorBonus": 1.0,
+      "critChanceBonus": 0.0,
+      "critDamageBonus": 4.0
+    },
+    {
+      "id": "archer_precision_synergy",
+      "category": "weapon",
+      "requiredClass": "archer",
+      "requiredAdvancement": "",
+      "requiredPieces": 1,
+      "requiredPassiveId": "",
+      "attackMultiplier": 1.07,
+      "armorBonus": 0.0,
+      "critChanceBonus": 3.0,
+      "critDamageBonus": 10.0
+    }
+  ]
+}

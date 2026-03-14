@@ -1,0 +1,17 @@
+﻿{
+  "panel": {
+    "width": 320,
+    "height": 220,
+    "titleLeft": 12,
+    "titleTop": 10,
+    "innerPadding": 8
+  },
+  "buttons": {
+    "left": 20,
+    "top": 52,
+    "width": 130,
+    "height": 20,
+    "rowGap": 8,
+    "colGap": 10
+  }
+}

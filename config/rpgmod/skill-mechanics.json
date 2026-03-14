@@ -1,0 +1,17 @@
+﻿{
+  "dataVersion": 1,
+  "skills": [
+    {
+      "id": "warrior.training_roar",
+      "trigger": "manual",
+      "conditions": [
+        { "type": "LEVEL", "key": "", "value": "", "min": 10, "minDouble": 0.0 },
+        { "type": "BASE_CLASS", "key": "", "value": "warrior", "min": 0, "minDouble": 0.0 }
+      ],
+      "actions": [
+        { "type": "MESSAGE", "key": "", "value": "전사의 포효가 발동했습니다.", "amount": 0, "amountDouble": 0.0 },
+        { "type": "GRANT_PROFICIENCY", "key": "weapon", "value": "", "amount": 8, "amountDouble": 0.0 }
+      ]
+    }
+  ]
+}

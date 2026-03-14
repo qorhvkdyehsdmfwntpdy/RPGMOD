@@ -1,0 +1,21 @@
+﻿{
+  "panel": {
+    "width": 380,
+    "height": 250,
+    "titleLeft": 12,
+    "titleTop": 10
+  },
+  "table": {
+    "left": 14,
+    "top": 36,
+    "rowStep": 24,
+    "levelCol": 170,
+    "expCol": 230
+  },
+  "buttons": {
+    "backWidth": 64,
+    "backHeight": 16,
+    "backRightPadding": 14,
+    "backBottomPadding": 10
+  }
+}

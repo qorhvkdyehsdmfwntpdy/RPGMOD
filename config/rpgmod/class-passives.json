@@ -1,0 +1,45 @@
+﻿{
+  "dataVersion": 1,
+  "templates": [
+    {
+      "advancementId": "novice_base",
+      "slots": {
+        "core": "novice_core",
+        "offense": "novice_offense",
+        "utility": "novice_utility"
+      }
+    },
+    {
+      "advancementId": "warrior_first",
+      "slots": {
+        "core": "warrior_core_1",
+        "offense": "warrior_offense_1",
+        "utility": "warrior_utility_1"
+      }
+    },
+    {
+      "advancementId": "rogue_first",
+      "slots": {
+        "core": "rogue_core_1",
+        "offense": "rogue_offense_1",
+        "utility": "rogue_utility_1"
+      }
+    },
+    {
+      "advancementId": "mage_first",
+      "slots": {
+        "core": "mage_core_1",
+        "offense": "mage_offense_1",
+        "utility": "mage_utility_1"
+      }
+    },
+    {
+      "advancementId": "archer_first",
+      "slots": {
+        "core": "archer_core_1",
+        "offense": "archer_offense_1",
+        "utility": "archer_utility_1"
+      }
+    }
+  ]
+}
